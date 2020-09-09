@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/layout_margin"
+    android:layout_marginEnd="@dimen/layout_margin"
     android:orientation="vertical">
 
     <TextView
@@ -13,6 +15,36 @@
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/NameStyle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints=""
+        android:hint="@string/enter_your_nickname"
+        android:inputType="textMultiLine|textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/buttonStyle"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/reset_button"
+        style="@style/buttonStyle"
+        android:text="@string/reset"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/star_image"
@@ -52,7 +84,5 @@
                 android:text="@string/bio" />
 
         </LinearLayout>
-
     </ScrollView>
-
 </LinearLayout>

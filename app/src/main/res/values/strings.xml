@@ -21,4 +21,7 @@
         The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
     </string>
     <string name="self_image">MySelf</string>
+    <string name="enter_your_nickname">Enter your nickname</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
 </resources>

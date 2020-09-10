@@ -21,6 +21,7 @@ This app demonstrates the following views and techniques:
 * Setting multiple click handlers programmatically
 * Using data binding for views to improve performance and eliminate findViewById
 <br>
+
 ## Playing the App
 - <b>Entering your nickname</b>
 <img width="250" alt = "enter_nickname" src = "https://user-images.githubusercontent.com/64389362/92574589-409f9980-f2c2-11ea-9352-e7eb462de4b4.gif">
